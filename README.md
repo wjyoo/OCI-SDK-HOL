@@ -16,10 +16,10 @@
 1. [OCI Trial 계정](http://taewan.kim/oci_docs/10_quickstart/how_to_sign_up_oci/)
 1. [OCI 기본 환경 설정](http://taewan.kim/oci_docs/10_quickstart/create_compartment/)
 1. [SSH Key 생성하기](./1-putty_key.md)
-
-## Hands-On 순서
 1. [OCI CLI 설치](http://taewan.kim/oci_docs/80_oci_tools/oci_cli/config_of_ocicli/)
 1. [OCI CLI 환경 설정](http://taewan.kim/oci_docs/80_oci_tools/oci_cli/config_of_ocicli/)
+
+## Hands-On 순서
 1. [Python SDK 실습](./python_sdk.md)
 1. [Java SDK 실습](./java_sdk.md)
 1. [(선택) : REST API 호출 (Postman 사용)](./rest_api.md)
