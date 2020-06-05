@@ -2,8 +2,19 @@
 
 ## Introduction
 본 핸즈온 문서는 Oracle Cloud Infrastructure의 모든 자원을 SDK(Software Development Kit)를 사용하여 모니터링하고 관리할 수 있는 방법을 실습을 통하여 제공합니다.
+
 ## Objectives
 * OCI SDK 사용
+
+------
+
+## 소요 시간
+* 사전 준비 - 계정 생성 (1시간)
+* 사전 준비 - 기본 환경 설정 (Key생성, OCI CLI 설치) (2시간)
+
+* Lab 1 - Python SDK (30분)
+* Lab 2 - Java SDK  (1시간)
+* Lab 3 - REST API (30분)
 
 ## Required Artifacts
 * 인터넷 접속 가능한 PC
@@ -18,9 +29,9 @@
 1. [SSH Key 생성하기](./1-putty_key.md)
 1. [OCI CLI 설치](http://taewan.kim/oci_docs/80_oci_tools/oci_cli/config_of_ocicli/)
 1. [OCI CLI 환경 설정](http://taewan.kim/oci_docs/80_oci_tools/oci_cli/config_of_ocicli/)
-
+----
 ## Hands-On 순서
-1. [Python SDK 실습](./python_sdk.md)
-1. [Java SDK 실습](./java_sdk.md)
-1. [(선택) : REST API 호출 (Postman 사용)](./rest_api.md)
+1. [Lab 1 - Python SDK 실습](./python_sdk.md)
+1. [Lab 2 - Java SDK 실습](./java_sdk.md)
+1. [Lab 3 - REST API 호출 (Postman 사용)](./rest_api.md)
 1. [(선택) : REST API 호출 (Curl 사용)](./curl.md)
