@@ -1,4 +1,6 @@
 # OCI Java SDK 사용하기
+OCI SDK 는 OCI CLI 의 환경 파일을 참고합니다. 
+사전 준비과정으로 OCI CLI를 설치하게 되면 Config 파일은 해당 계정의 .oci/config 에 위치하게 됩니다.
 
 ## JDK 에 권한 설정
 
@@ -112,12 +114,15 @@ https://docs.cloud.oracle.com/en-us/iaas/tools/java/1.17.1/com/oracle/bmc/Region
 
     java -cp examples:lib/oci-java-sdk-full-<version>.jar:third-party/lib/* ObjectStorageGetNamespaceExample [compartment ocid]
 
-* classpath에 third-party/lib안의 모든 jar파일을 클래스패스에 추가하셔야 합니다.
-* Compartment ocid는 다음의 링크에서 확인하실 수 있습니다.  http://taewan.kim/oci_docs/98_misc_tips/how_to_collect_basic_info_of_oci/#compartment-ocid 
+    * classpath에 third-party/lib안의 모든 jar파일을 클래스패스에 추가하셔야 합니다.
+    * Compartment ocid는 다음의 링크에서 확인하실 수 있습니다.  http://taewan.kim/oci_docs/98_misc_tips/how_to_collect_basic_info_of_oci/#compartment-ocid 
 
-* mac에서 실행한 경우:
+    * mac에서 실행한 경우:
 
-    java -classpath $(echo third-party/lib/*.jar |tr ' ' ':' ):examples:lib/oci-java-sdk-full-1.17.1.jar ObjectStorageGetNamespaceExample ocid1.compartment.oc1..aaaaaaaae2qsdvkc445……
+        java -classpath $(echo third-party/lib/*.jar |tr ' ' ':' ):examples:lib/oci-java-sdk-full-1.17.1.jar ObjectStorageGetNamespaceExample ocid1.compartment.oc1..aaaaaaaae2qsdvkc445……
+
+    #### 실행 결과
+    ![](./images/javasdk1.png)
 
 ## 기타 참고 사항
 JDK11 사용시에는 JaxB dependency로 library를 별도로 추가하셔야 합니다.
